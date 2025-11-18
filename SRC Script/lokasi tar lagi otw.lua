@@ -1,0 +1,25 @@
+local Locations = {
+
+    ['Wood R Us']         = CFrame.new(270, 4, 60),
+    ['Spawn']             = CFrame.new(174, 10.5, 66),
+    ['Land Store']        = CFrame.new(270, 3, -98),
+    ['Bridge']            = CFrame.new(112, 37, -892),
+    ['Dock']              = CFrame.new(1136, 0, -206),
+    ['Palm']              = CFrame.new(2614, -4, -34),
+    ['Cave']              = CFrame.new(3590, -177, 415),
+    ['Volcano']           = CFrame.new(-1588, 623, 1069),
+    ['Swamp']             = CFrame.new(-1216, 131, -822),
+    ['Fancy Furnishings'] = CFrame.new(486, 3, -1722),
+    ['Boxed Cars']        = CFrame.new(509, 3, -1458),
+    ['Ice Mountain']      = CFrame.new(1487, 415, 3259),
+    ['Links Logic']       = CFrame.new(4615, 7, -794),
+    ['Bob\'s Shack']      = CFrame.new(292, 8, -2544),
+    ['Fine Arts Store']   = CFrame.new(5217, -166, 721),
+    ['Shrine Of Sight']   = CFrame.new(-1608, 195, 928),
+    ['Strange Man']       = CFrame.new(1071, 16, 1141),
+    ['Volcano Win']       = CFrame.new(-1667, 349, 147),
+    ['Ski Lodge']         = CFrame.new(1244, 59, 2290),
+    ['Fur Wood']          = CFrame.new(-1080, -5, -942),
+    ['The Den']           = CFrame.new(330, 45, 1943),
+
+}
