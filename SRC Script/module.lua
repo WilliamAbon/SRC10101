@@ -94,3 +94,4 @@ function lt2.DropAxeSemua()
 end
 
 return lt2
+
