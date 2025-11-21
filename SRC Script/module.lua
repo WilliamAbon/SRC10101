@@ -84,4 +84,13 @@ function lt2.LoadSlot(angka)
     return game:GetService("ReplicatedStorage").LoadSaveRequests.RequestLoad:InvokeServer(angka, game.Players.LocalPlayer)
 end
 
+function lt2.DropAxeSemua()
+	local player, remote = game.Players.LocalPlayer, game.ReplicatedStorage.Interaction.ClientInteracted
+	for _,v in pairs(player.Backpack:GetChildren()) do
+		if v.Name == "Tool" and v:FindFirstChild("CuttingTool") and v.CuttingTool.Value == True then
+			remote:FireServer(v, "Drop tool", player.Character.HumanoidRootPart.CFrame)
+		end
+	end
+end
+
 return lt2
