@@ -203,6 +203,27 @@ function UI_AgusNgeseng:NambahUI()
 	TextLabel_5.TextWrapped = true
 	TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
 	TextLabel_5.TextYAlignment = Enum.TextYAlignment.Top
+	
+	local run = game:GetService("RunService")
+	local player = game.Players.LocalPlayer
+	local start_time = os.clock()
+	local frame_count = 0
+	local runfu
+	runfu = run.Heartbeat:Connect(function()
+		local ping_seconds = player:GetNetworkPing()
+		local ping_ms = ping_seconds * 1000
+		frame_count = frame_count + 1
+		if os.clock() - start_time >= 1 then
+			TextLabel_5.Text = "FPS:"..frame_count.."\nPing:"..ping_ms.."ms"
+			frame_count = 0
+			start_time = os.clock()
+		end
+	end)
+	ScreenGui.Destroying:Connect(function()
+		runfu:Disconnect()
+	end)
 end
+
+
 
 return UI_AgusNgeseng
