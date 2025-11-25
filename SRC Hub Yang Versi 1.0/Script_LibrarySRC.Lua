@@ -325,7 +325,7 @@ function UI_AgusNgeseng:NambahTab(Text, Image, pajang)
 	if game.CoreGui:FindFirstChild("SRC_Screen") then
 		local w = game.CoreGui:FindFirstChild("SRC_Screen").MainFrame.FrameKiri.PilihanFrame.ScrollingPilihanFrame
 		TextButton.Parent = w
-		TextButton.BackgroundColor3 = Color3.fromRGB(40, 66, 32)
+		TextButton.BackgroundColor3 = Color3.fromRGB(66, 32, 32)
 		TextButton.BackgroundTransparency = 0.650
 		TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		TextButton.BorderSizePixel = 0
