@@ -671,7 +671,7 @@ function UI_AgusNgeseng:Selection(TaruDimana, Title, func, default, Panjang)--ga
 	TextButton.BackgroundTransparency = 0.550
 	TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	TextButton.BorderSizePixel = 0
-	TextButton.Position = UDim2.new(0.00755121047, 0, 0.475884706, 0)
+	TextButton.Position = UDim2.new(0,0,0,0)
 	TextButton.Size = UDim2.new(1, 0, 0, 50)
 	TextButton.Font = Enum.Font.SourceSans
 	TextButton.Text = ""
