@@ -15,7 +15,7 @@
 
 ### **Cara Pakai**
 
-1. Copy script TRLT2 di bawah ini
+1. Copy script SRC Hub di bawah ini
  ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/WilliamAbon/SRC10101/refs/heads/main/SRC%20Script/SRC_Script_V0.4.lua"))()
 ```
