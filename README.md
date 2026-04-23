@@ -26,4 +26,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/WilliamAbon/SRC10101/
 
 btw yang di folder yang ada tulisan nya v1.0 itu udah ga gw ngelanjutin
 
+---
+
+script SRC sekarng udah kadaluarsa dan script ini ga gw update kan. karna..... gw malas :)
 </div>
